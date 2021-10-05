@@ -426,7 +426,7 @@ animation-iteration-count: infinite;
     bottom: 250px;
     right: 0px;
     left: 0px;
-    z-index: 1;
+    z-index: 2;
     display: block;
     animation: city 20s linear infinite;
 }
@@ -459,7 +459,7 @@ animation-iteration-count: infinite;
     position: absolute;
     z-index: 1;
     bottom: 114px;
-    left: 222px;
+    left: 288px;
     animation: back 3s infinite linear;
 }
 @keyframes back {
@@ -472,7 +472,7 @@ animation-iteration-count: infinite;
     position: absolute;
     z-index: 1;
     bottom: 114px;
-    left: 376px;
+    left: 888px;
     animation: front 3s infinite linear;
 }
 @keyframes front {
