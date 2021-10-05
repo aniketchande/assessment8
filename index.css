@@ -1,0 +1,334 @@
+body{
+    
+    
+    animation: aniket 15s infinite;
+    
+
+}
+@keyframes aniket {
+    
+    25%{
+        background-color: rgb(88, 5, 88);
+    }
+    50%{
+        background-color: orange;
+    }
+    100%{
+        background-color: rgb(71, 255, 108);
+    }
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.number {
+    list-style-type: decimal;
+    position: relative;
+    left: 500px;
+    width: 100%; 
+}
+.box{
+     border: 4px double blue;
+     background: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    color: white; 
+    display: inline-block;
+    margin: 40px;
+    position: relative;  
+    
+
+
+    
+}
+.box1{
+animation-name: skew;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+    
+} 
+@keyframes skew {
+    50%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+} 
+.box2{
+    animation-name: skewy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+} 
+@keyframes skewy {
+    20%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+
+.box3{
+    
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4{
+
+    animation-name: scale1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes scale1 {
+    100%{
+        transform: scaleX(5px);
+        height: 150px;
+    }
+}
+.box5{
+    width: 50px;
+    animation-name: scale2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes scale2 {
+
+    100% {
+        transform: scaleX(2);
+    }
+}
+.box6{
+    animation-name: rotate1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}    
+@keyframes rotate1 {
+    100% {
+        transform: rotate( 120deg);
+    }
+
+}      
+
+  
+.class1{
+    
+    position: absolute;
+    top: 935px;
+    left: 650px;
+    font-weight: bold;
+    font-size: 22px;
+} 
+
+.block{
+    border: 4px double purple;
+    background: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    margin: 40px;
+
+}
+.block1:hover{
+    transition: 5s;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.block2:hover{
+    transition: 5s;
+    transform: scale(5px,5px);
+    width: 300px;
+    height: 300px;
+}
+.block3:hover{
+    transition: 5s linear;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.block4:hover{
+    transition: 5s ease;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.block5:hover{
+    transition:5s ease-in;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.block6:hover{
+    transition: 5s ease-out;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.block7:hover{
+    transition:5s ease-in-out;
+    transform:scaleY(5px);
+    width: 300px;
+}
+.class2{
+    position: absolute;
+    top: 1568px;
+    left: 600px;
+    font-weight: bold;
+}
+.class3{
+    position: absolute;
+    top: 1599px;
+    left: 600px;
+    font-weight: bold;
+}
+.sky {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./sky.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 8px solid;
+    border-left-color: orange;
+    border-top-color: white;
+    border-right-color: green;
+    border-bottom: none;
+    overflow: hidden;
+}
+.message1 {
+    width: 438px;
+    height: 152px;
+    font-size: 125px;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    border: 1px solid white;
+    background-color: orange;
+    position: absolute;
+    top: 430px;
+    left: 2000px;
+    z-index: 1;
+}
+.message2 {
+    width: 1010px;
+    height: 149px;
+    font-size: 125px;
+    font-weight: bold;
+    color: rgb(78, 9, 240);
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 430px;
+    left: 2500px;
+    z-index: 1;
+}
+.message3 {
+    width: 271px;
+    height: 140px;
+    font-size: 125px;
+    font-weight: bold;
+    color: rgb(18, 18, 19);
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(16, 250, 74);
+    position: absolute;
+    top: 430px;
+    left: 3569px;
+    z-index: 1;
+}
+.sun{
+    position: absolute;
+    top: 550px;
+    right: 1800px;
+}
+.flag{
+    position: absolute;
+    bottom: 350px;
+    right: 2253px;
+    z-index: 3;
+}
+.road {
+    width: 500%;
+    height: 200px;
+    background-image: url(./road.jpg);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: road 5s linear infinite;
+}
+@keyframes road {
+    100% {
+        transform: translate(-2000px);
+    }
+}
+.city {
+    
+        /* background-image: url(./city.png);
+        height: 200px;
+         width: 500%;  */
+        position: absolute;
+        background-repeat: repeat-x;
+        bottom: 196px;
+        right: 0px;
+        left: 0px;
+        z-index: 1;
+        display: block;
+        animation: city 20s linear infinite;
+
+}
+@keyframes city {
+    100% {
+        transform: translate(-3400px);
+    }
+}
+.car {
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.wheel{
+    position: absolute;
+    z-index: 1;
+    bottom: 114px;
+    left: 3523px;
+    animation: front 3s infinite linear;
+}
+@keyframes front {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.wheel2{
+    position: absolute;
+    z-index: 1;
+    bottom: 114px;
+    left: 2907px;
+    animation: back 3s infinite linear;
+}
+@keyframes back {
+    100% {
+        transform: rotate( 360deg);
+    }
+}
